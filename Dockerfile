@@ -1,4 +1,4 @@
-FROM appsvcbuildacr.azurecr.io/php:7.2
+FROM appsvcbuildacr.azurecr.io/php:dev-7.2
 LABEL maintainer="Azure App Services Container Images <appsvc-images@microsoft.com>"
 
 RUN yes | pecl install xdebug \
